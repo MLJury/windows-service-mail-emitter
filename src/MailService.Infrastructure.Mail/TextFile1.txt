@@ -1,0 +1,36 @@
+﻿            //            try
+            //            {
+            //                ImapClient ic = new ImapClient("imap.gmail.com", "MalekiSirius@gmail.com", "193782465mrmr",
+            //AuthMethods.Login, 993, true);
+
+            //                // Select a mailbox. Case-insensitive
+            //                ic.SelectMailbox("INBOX");
+            //                var count = ic.GetMessageCount();
+            //                // Get the first *11* messages. 0 is the first message;
+            //                // and it also includes the 10th message, which is really the eleventh ;)
+            //                // MailMessage represents, well, a message in your mailbox
+            //                MailMessage[] mm = ic.GetMessages(0, 10);
+            //                string didi = "";
+            //                mm.ToList().ForEach(f => didi += string.Concat(ic.GetMessage(f.Uid).Body, "\n"));
+            //                var dada = ic.GetMessage(mm.FirstOrDefault().Uid);
+            //                var fafa = String.Join("--------------\n", mm.Select(s => s.Date));
+            //                //foreach (MailMessage m in mm)
+            //                //{
+
+            //                //    Console.WriteLine(m.Subject);
+            //                //}
+            //                // Probably wiser to use a using statement
+            //                ic.Dispose();
+            //            }
+            //            catch (Exception f)
+            //            {
+            //                throw f;
+            //            }
+
+            // Connect on port 993 using SSL.
+            //using (ImapClient Client = new ImapClient("imap.gmail.com", 993, "MalekiSirius@gmail.com", "193782465mrmr", AuthMethod.Login, true))
+            //{
+            //    var mama = Client.Search(SearchCondition.Subject("this"));
+            //    var fafa = Client.GetMessages(new List<UInt32>(){ 1, 2 });
+            //    Console.WriteLine("We are connected!");
+            //}

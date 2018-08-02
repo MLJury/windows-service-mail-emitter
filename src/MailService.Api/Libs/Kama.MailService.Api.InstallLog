@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Kama\Projects\Kama.NewMailService\Kama.MailService.Api\Libs\Kama.MailService.Api.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Kama\Projects\Kama.NewMailService\Kama.MailService.Api\Libs\Kama.MailService.Api.exe
+   logfile = C:\Kama\Projects\Kama.NewMailService\Kama.MailService.Api\Libs\Kama.MailService.Api.InstallLog
+Installing service KamaMailService...
+Creating EventLog source KamaMailService in log Application...
+Rolling back assembly 'C:\Kama\Projects\Kama.NewMailService\Kama.MailService.Api\Libs\Kama.MailService.Api.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Kama\Projects\Kama.NewMailService\Kama.MailService.Api\Libs\Kama.MailService.Api.exe
+   logfile = C:\Kama\Projects\Kama.NewMailService\Kama.MailService.Api\Libs\Kama.MailService.Api.InstallLog
+Restoring event log to previous state for source KamaMailService.
